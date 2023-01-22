@@ -55,9 +55,9 @@ function getDetails() {
     return studentProfile
 }
 
-const profile = getDetails()
+const profile = getDetails();
 
-console.log(profile)
+console.log(profile);
 
 //test
 
@@ -65,6 +65,6 @@ function getDetails2() {
     return {firsname: 'Jef!', lastName: 'Bas!'};
 }
 
-const profile2 = getDetails2()
+const profile2 = getDetails2();
 
-console.log(profile2)
+console.log(profile2);
